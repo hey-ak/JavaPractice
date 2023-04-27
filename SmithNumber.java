@@ -45,7 +45,7 @@ public class SmithNumber {
     }
 
     public static void main(String[] args) {
-        int orig = 22;
+        int orig = 24;
         int a = digitcal(orig);
         int b = primecal(orig);
 
