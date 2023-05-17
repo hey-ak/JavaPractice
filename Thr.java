@@ -45,6 +45,12 @@ public class Thr{
     public static void main(String[] args) {
         Myth1 t1 = new Myth1();
         Myth2 t2 = new Myth2();
+        t1.setPriority(9);
+        t2.setPriority(10);
+        System.out.println(t1.getPriority());
+        System.out.println(t2.getPriority());
+        System.out.println(t2.getState());
+        System.out.println(Thread.currentThread());
         t1.start();
         t2.start();
         
