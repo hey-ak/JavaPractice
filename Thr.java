@@ -2,7 +2,13 @@
 class Myth1 extends Thread {
     public void run() {
         int i = 0;
-        while (i<=45) {
+        while (i <= 45) {
+            try {
+                Thread.sleep(200);
+            } catch (InterruptedException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
             System.out.println("Th1");
             i++;
             
@@ -16,7 +22,13 @@ class Myth1 extends Thread {
 class Myth2 extends Thread {
     public void run() {
         int i = 0;
-        while (i<=25) {
+        while (i <= 25) {
+            try {
+                Thread.sleep(200);
+            } catch (InterruptedException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
             System.out.println("Th2");
             i++;
             
