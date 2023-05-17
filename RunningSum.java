@@ -11,6 +11,7 @@ public class RunningSum {
 
             sum += arr[i];
             result[i] = sum;
+            
 
         }
         System.out.println(Arrays.toString(result));
