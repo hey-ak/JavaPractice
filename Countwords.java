@@ -6,8 +6,8 @@ public class Countwords {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String str = sc.nextLine();
-        StringTokenizer st = new StringTokenizer(str);
-        int count = st.countTokens();
-        System.out.println("Total number of words in the string: " + count);
+        String arr1[] = str.split(" ");
+        System.out.println(arr1.length);
+    
     }
 }
